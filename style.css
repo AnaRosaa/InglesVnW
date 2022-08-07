@@ -1,8 +1,263 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 body{
-    background-color: yellow;
+    background-color: rgb(196, 84, 23);
 }
+header{
+    position: relative;
+    display: flex;
+    height: 12vh;
+    width: 100%;
+}
+.imgsBox{
+    display: flex;
+    position: relative;
+    background-color: rgb(255, 238, 238);
+    width: 76vw;
+    height: 5vh;
+    top:3vh;
+    left: 12vw;
+    border-radius: 15px 15px;
+
+}
+.bolsa{
+    display: flex;
+    position:absolute;
+    width: 2.5vh;
+    left: 65vw;
+    top:1vh;
+
+}
+.bolsa:hover{
+   
+    cursor: pointer;
+    transform: scale(122%);
+
+}
+.menu{
+    position: absolute;
+    width: 2.5vh;
+    left: 5vw;
+    top:1vh;
+}
+.menu:hover{
+    
+    cursor: pointer;
+    transform: scale(122%);
+
+}
+.h1Box{
+    display: flex;
+    position: relative;
+}
+h1{
+   
+    display: flex;
+    position:absolute;
+    right: 18.4vw;
+    top:2.9vh;
+    font-size: 30px;
+    
+}
+h1:hover{
+    color: brown;
+    cursor: pointer;
+    transform: scale(122%);
+
+}
+main{
+    display: flex;
+    position: relative;
+    
+    height: 65vh;
+    width: 100%;
+}
+figure{
+    display: flex;
+    position: relative;
+}
+.intensity{
+    display: flex;
+    position: absolute;
+    height: 42vh;
+    width: 50vw;
+    left: 24.5vw;
+    bottom:26vh ;
+}
+.mainBOX{
+    display: flex;
+    position: relative;
+}
+h2{
+    display: flex;
+    position: absolute;
+    top:40vh;
+    left: 5vw;
+    font-weight:900;
+}
+h3{
+    display: flex;
+    position: absolute;
+    top:40vh;
+    right: 5vw;
+    font-size: 25px;
+}
+h4{
+    display: flex;
+    position: absolute;
+    top:46vh;
+   left: 5vw;
+   font-weight:900;
+   font-size: 20px;  
+}
+.fontBox{
+    display: flex;
+    position: absolute;
+    top:49vh;
+   left: 5vw;
+}
+h5{
+    display: flex;
+    position: absolute;
+    top:55vh;
+   left: 5vw;
+   font-weight:900;
+   font-size: 20px; 
+}
+.flavourBox{
+    display: flex;
+    position: absolute;
+    top:59vh;
+   left: 5vw;
+   height: 23vh;
+   width: 55vw;
+}
+.inBox{
+    display: flex;
+    position:relative
+}
+label{
+   display: flex;
+  
+   
+}
+.blackA{
+    display: flex;
+    position: absolute;
+    height: 2.7vh;
+    top:69vh;
+    left: 5vw;
+    width: 14px;
+
+}
+.blackB{
+    display: flex;
+    position: absolute;
+    height: 2.7vh;
+    top:69vh;
+    left: 37vw;
+    border-radius: ;
+    cursor: pointer;
+    background-color: black;
+    width: 14px;
+}
+.rBox{
+    position: relative;
+
+   
+}
+.bagBox{
+    display: flex;
+    position: absolute;
+    top:69vh;
+    left: 10vw;
+    font-size: 15px;
+    
+    width: 20vw;
+    
+}
+.jaBox{
+    display: flex;
+    position: absolute;
+    top:69vh;
+    left: 42vw;
+    font-size: 15px;
+    width: 20vw;
+}
+.BtnBox{
+    display: flex;
+    position: relative;
+    background-color: rgb(196, 84, 23);
+    width: 89vw;
+    height: 4vh;
+    top:10vh;
+    left: 5vw;
+    border-radius: 15px 15px;
+    border: solid;
+    
+}
+.mostBox{
+    display: flex;
+    position: absolute;
+    left: 80vw;
+    font-size: 17px;
+    font-weight: 900;
+
+
+}
+
+.firstBox{
+    display: flex;
+    position: absolute;
+    left: 42vw;
+    font-size: 17px;
+    font-weight: 900;
+
+}
+.lessBox{
+    display: flex;
+    position: absolute;
+    left: 5vw;
+    font-size: 17px;
+    font-weight: 900;
+
+}
+.endBtn{
+   position: relative;
+   border: solid;
+   top: 12vh;
+   height: 4vh;
+   width: 88vw;
+   left: 5vw;
+   border-radius: 15px 15px;
+   background-color: black;
+   font-weight:200;
+  
+}
+
+.cartBox{
+    position: absolute;
+    display: flex;
+    top: 93.3vh;
+    left: 32vw;
+    color: rgb(247, 213, 213);
+}
+.cartBox:hover{
+    color: brown;
+    cursor: pointer;
+    transform: scale(122%);
+
+
+}
+
+
+
+
+
+
+
